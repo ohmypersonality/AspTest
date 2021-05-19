@@ -378,3 +378,6 @@ G:\project\AspTest\AspTest\WebApplication1\obj\Debug\WebApplication1.csproj.Core
 G:\project\AspTest\AspTest\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 G:\project\AspTest\AspTest\WebApplication1\obj\Debug\WebApplication1.dll
 G:\project\AspTest\AspTest\WebApplication1\obj\Debug\WebApplication1.pdb
+G:\project\AspTest\AspTest\WebApplication1\bin\Login2.aspx
+G:\project\AspTest\AspTest\WebApplication1\bin\Login2.aspx.cs
+G:\project\AspTest\AspTest\WebApplication1\bin\Login2.aspx.designer.cs
