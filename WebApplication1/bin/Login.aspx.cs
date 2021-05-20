@@ -109,9 +109,9 @@ namespace WebApplication1
 
             string condition = "where account = '" + account + "'";                 
            
-            if (dataQuery("account", "Account", condition) == account)
+            if (dataQuery("account", "AccountInformation", condition) == account)
             {
-                if (dataQuery("password", "Account", condition) == password)
+                if (dataQuery("password", "AccountInformation", condition) == password)
                 {
                     Application["count"] = Convert.ToInt32(Application["count"]) + 1;
                     Session["login"] = true;
@@ -139,7 +139,7 @@ namespace WebApplication1
             //new一個SqlConnection物件，是與資料庫連結的通道(其名為Connection)，以s_data內的連接字串連接所對應的資料庫。
             SqlConnection connection = new SqlConnection(s_data);
 
-            string queryString = "select " + item + " from [Orders].[dbo].[" + table + "]"+ condition;
+            string queryString = "select " + item + " from [account].[dbo].[" + table + "]"+ condition;
             //new一個SqlCommand告訴這個物件準備要執行什麼SQL指令
             SqlCommand Command = new SqlCommand(queryString, connection);
 
