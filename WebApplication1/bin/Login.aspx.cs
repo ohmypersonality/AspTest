@@ -117,7 +117,8 @@ namespace WebApplication1
                     Session["login"] = true;
                     Session["nick_name"] = TextBox_nickname.Text.ToString();
                     //Response.Redirect("Handler1.ashx");
-                    Server.Transfer("Handler1.ashx");
+                    //Server.Transfer("Handler1.ashx");
+                    Server.Transfer("RockPaperScissors.aspx");
                 }
                 else
                 {
@@ -139,7 +140,8 @@ namespace WebApplication1
             //new一個SqlConnection物件，是與資料庫連結的通道(其名為Connection)，以s_data內的連接字串連接所對應的資料庫。
             SqlConnection connection = new SqlConnection(s_data);
 
-            string queryString = "select " + item + " from [account].[dbo].[" + table + "]"+ condition;
+            //string queryString = "select " + item + " from [account].[dbo].[" + table + "]"+ condition;
+            string queryString = "select " + item + " from " + table + " " + condition;
             //new一個SqlCommand告訴這個物件準備要執行什麼SQL指令
             SqlCommand Command = new SqlCommand(queryString, connection);
 

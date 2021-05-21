@@ -381,3 +381,7 @@ G:\project\AspTest\AspTest\WebApplication1\obj\Debug\WebApplication1.pdb
 G:\project\AspTest\AspTest\WebApplication1\bin\Login2.aspx
 G:\project\AspTest\AspTest\WebApplication1\bin\Login2.aspx.cs
 G:\project\AspTest\AspTest\WebApplication1\bin\Login2.aspx.designer.cs
+G:\project\AspTest\AspTest\WebApplication1\bin\EntityFramework.dll
+G:\project\AspTest\AspTest\WebApplication1\bin\EntityFramework.SqlServer.dll
+G:\project\AspTest\AspTest\WebApplication1\bin\EntityFramework.xml
+G:\project\AspTest\AspTest\WebApplication1\bin\EntityFramework.SqlServer.xml
